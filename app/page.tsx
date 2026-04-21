@@ -11,15 +11,17 @@ export default function Home() {
           <Image src="/placeholder-meja.jpg" alt="Meja tersedia" fill priority className="object-cover" />
         </div>
 
-        <p className="mt-11 text-lg leading-6 font-medium">
-          Scroll ke atas
-          <br />
-          untuk membuka menu
-        </p>
+        <a href="/menu">
+          <p className="mt-11 text-lg leading-6 font-medium">
+            Scroll ke atas
+            <br />
+            untuk membuka menu
+          </p>
 
-        <div className="mt-14 flex items-center justify-center animate-bounce">
-          <ChevronUp size={32} />
-        </div>
+          <div className="mt-14 flex items-center justify-center animate-bounce">
+            <ChevronUp size={32} />
+          </div>
+        </a>
       </section>
     </main>
   );
