@@ -1,28 +1,40 @@
-import { ChevronUp } from "lucide-react";
+"use client";
+
+import * as React from "react";
 import Image from "next/image";
+import { ChevronUp } from "lucide-react";
 
-export default function Home() {
+import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle } from "@/components/ui/drawer";
+
+export default function Menu() {
+  const [open, setOpen] = React.useState(true);
+
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center px-4 text-center">
-      <section className="w-full max-w-sm flex flex-col items-center">
-        <h1 className="text-2xl font-extrabold leading-tight tracking-tight">Meja #02 tersedia!</h1>
+    <main className="min-h-screen bg-background">
+      <Drawer direction="top" open={open} onOpenChange={setOpen}>
+        <DrawerContent className="min-h-svh">
+          <div className="mx-auto flex min-h-svh w-full max-w-sm flex-col items-center justify-center px-4 text-center">
+            <DrawerHeader className="p-0">
+              <DrawerTitle className="text-2xl font-extrabold leading-tight tracking-tight">Meja #02 tersedia!</DrawerTitle>
+              <DrawerDescription className="sr-only">Informasi meja tersedia</DrawerDescription>
+            </DrawerHeader>
 
-        <div className="relative mt-11 w-full h-57 overflow-hidden rounded-xl shadow-sm">
-          <Image src="/placeholder-meja.jpg" alt="Meja tersedia" fill priority className="object-cover" />
-        </div>
+            <div className="relative mt-11 h-57 w-full overflow-hidden rounded-xl shadow-sm">
+              <Image src="/placeholder-meja.jpg" alt="Meja tersedia" fill priority className="object-cover" />
+            </div>
 
-        <a href="/menu">
-          <p className="mt-11 text-lg leading-6 font-medium">
-            Scroll ke atas
-            <br />
-            untuk membuka menu
-          </p>
+            <p className="mt-11 text-lg font-medium leading-6">
+              Scroll ke atas
+              <br />
+              untuk membuka menu
+            </p>
 
-          <div className="mt-14 flex items-center justify-center animate-bounce">
-            <ChevronUp size={32} />
+            <div className="mt-14 flex items-center justify-center animate-bounce">
+              <ChevronUp size={32} />
+            </div>
           </div>
-        </a>
-      </section>
+        </DrawerContent>
+      </Drawer>
     </main>
   );
 }
