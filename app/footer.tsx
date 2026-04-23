@@ -6,7 +6,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 const footerNavItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
+  { label: "Services", href: "/service" },
   { label: "Contact", href: "/contact" },
 ];
 

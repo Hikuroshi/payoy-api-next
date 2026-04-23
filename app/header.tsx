@@ -9,7 +9,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetFooter
 const navItems = [
   { label: "Home", href: "/", icon: House },
   { label: "About", href: "/about", icon: Info },
-  { label: "Services", href: "/services", icon: BriefcaseBusiness },
+  { label: "Services", href: "/service", icon: BriefcaseBusiness },
   { label: "Contact", href: "/contact", icon: Mail },
 ];
 
