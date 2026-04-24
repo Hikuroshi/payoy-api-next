@@ -36,7 +36,7 @@ export function Header() {
           </NavigationMenu>
 
           <Button asChild>
-            <Link href="/booking">Pesan Sekarang</Link>
+            <Link href="/menu">Pesan Sekarang</Link>
           </Button>
         </div>
 
