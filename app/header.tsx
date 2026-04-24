@@ -7,10 +7,10 @@ import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/compon
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetFooter } from "@/components/ui/sheet";
 
 const navItems = [
-  { label: "Home", href: "/", icon: House },
-  { label: "About", href: "/about", icon: Info },
-  { label: "Services", href: "/service", icon: BriefcaseBusiness },
-  { label: "Contact", href: "/contact", icon: Mail },
+  { label: "Beranda", href: "/", icon: House },
+  { label: "Layanan", href: "/service", icon: Info },
+  { label: "Tentang Kami", href: "/about", icon: BriefcaseBusiness },
+  { label: "Kontak", href: "/contact", icon: Mail },
 ];
 
 export function Header() {

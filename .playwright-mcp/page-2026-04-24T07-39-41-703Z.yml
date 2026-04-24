@@ -1,0 +1,185 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Payoy" [ref=e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e6]:
+          - navigation "Main" [ref=e7]:
+            - list [ref=e9]:
+              - listitem [ref=e10]:
+                - button "Beranda" [ref=e11]:
+                  - link "Beranda" [ref=e12] [cursor=pointer]:
+                    - /url: /
+              - listitem [ref=e13]:
+                - button "Layanan" [ref=e14]:
+                  - link "Layanan" [ref=e15] [cursor=pointer]:
+                    - /url: /service
+              - listitem [ref=e16]:
+                - button "Tentang Kami" [ref=e17]:
+                  - link "Tentang Kami" [ref=e18] [cursor=pointer]:
+                    - /url: /about
+              - listitem [ref=e19]:
+                - button "Kontak" [ref=e20]:
+                  - link "Kontak" [ref=e21] [cursor=pointer]:
+                    - /url: /contact
+          - link "Pesan Sekarang" [ref=e22] [cursor=pointer]:
+            - /url: /booking
+    - main [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Solusi digital untuk bisnis kuliner yang ingin tumbuh lebih cepat" [level=1] [ref=e25]
+        - paragraph [ref=e26]: Payoy membantu restoran, kafe, dan UMKM mengelola pesanan, meja, produk, serta laporan keuangan dalam satu aplikasi yang simpel, modern, dan mudah digunakan.
+        - generic [ref=e28]:
+          - link "Download Payoy di App Store" [ref=e29] [cursor=pointer]:
+            - /url: "#download"
+            - img "Download di App Store" [ref=e30]
+          - link "Download Payoy di Google Play" [ref=e31] [cursor=pointer]:
+            - /url: "#download"
+            - img "Dapatkan di Google Play" [ref=e32]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - heading "Menu" [level=2] [ref=e36]
+            - generic [ref=e37]: "Meja #02"
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: 🍽️
+              - generic [ref=e41]: Nasi Ayam
+            - generic [ref=e42]:
+              - generic [ref=e43]: 🍽️
+              - generic [ref=e44]: Ayam Geprek
+            - generic [ref=e45]:
+              - generic [ref=e46]: 🍽️
+              - generic [ref=e47]: Sambal
+            - generic [ref=e48]:
+              - generic [ref=e49]: 🍽️
+              - generic [ref=e50]: Minuman
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - heading "Nasi Ayam" [level=3] [ref=e53]
+              - generic [ref=e54]:
+                - generic [ref=e55]: 🍛
+                - generic [ref=e56]:
+                  - heading "Nasi Ayam" [level=4] [ref=e57]
+                  - paragraph [ref=e58]: Rp 25.000
+                  - button "Tambah" [ref=e59]
+              - generic [ref=e60]:
+                - generic [ref=e61]: 🍗
+                - generic [ref=e62]:
+                  - heading "Nasi Ayam Full" [level=4] [ref=e63]
+                  - paragraph [ref=e64]: Rp 30.000
+                  - button "Tambah" [ref=e65]
+            - generic [ref=e66]:
+              - heading "Ayam Geprek" [level=3] [ref=e67]
+              - generic [ref=e68]:
+                - generic [ref=e69]: 🌶️
+                - generic [ref=e70]:
+                  - heading "Geprek Dada" [level=4] [ref=e71]
+                  - paragraph [ref=e72]: Rp 18.000
+                  - button "Tambah" [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]: "Total: 3 item"
+            - generic [ref=e76]: Rp 54.000
+          - button "Checkout" [ref=e77]
+      - generic [ref=e78]:
+        - heading "Mulai jualan tanpa ribet." [level=2] [ref=e80]:
+          - text: Mulai jualan
+          - text: tanpa ribet.
+        - generic [ref=e81]:
+          - article [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e90]:
+              - heading "QR Code Table Booking" [level=3] [ref=e91]
+              - paragraph [ref=e92]: Kurangi antri waiter, tingkatkan kecepatan layanan, dan track occupancy meja real-time dengan QR unik di setiap meja.
+          - article [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e100]:
+              - heading "Pengaturan Keuangan" [level=3] [ref=e101]
+              - paragraph [ref=e102]: Pantau cashflow dan laporan laba rugi harian. kemudahan mengelola pengeluaran outlet tanpa ribet menggunakan spreadsheet.
+          - article [ref=e103]:
+            - img [ref=e105]
+            - generic [ref=e110]:
+              - heading "Kelola Produk" [level=3] [ref=e111]
+              - paragraph [ref=e112]: Hindari kehabisan barang laris dengan fitur update stok, track kadaluarsa, dan reorder otomatis.
+          - article [ref=e113]:
+            - img [ref=e115]
+            - generic [ref=e117]:
+              - heading "Satu Kendali untuk Banyak Outlet" [level=3] [ref=e118]
+              - paragraph [ref=e119]: Skalakan bisnis tanpa chaos dengan Dashboard pusat untuk monitor semua cabang, bisa pisah data penjualan/stok per lokasi.
+      - generic [ref=e120]:
+        - heading "Apa Kata Pengguna Payoy!" [level=2] [ref=e121]
+        - generic [ref=e122]:
+          - article [ref=e123]:
+            - generic [ref=e124]:
+              - img [ref=e125]
+              - paragraph [ref=e128]: Saya owner umkm sangat terbantu dengan adanya aplikasi Payoy! ini, fitur QR meja sangat membantu saya dalam menyelesaikan masalah antrian.
+            - generic [ref=e129]:
+              - generic [ref=e130]: NG
+              - generic [ref=e131]:
+                - heading "Nathaniel Galih" [level=3] [ref=e132]
+                - paragraph [ref=e133]: Owner toko roti & cafe
+          - article [ref=e134]:
+            - generic [ref=e135]:
+              - img [ref=e136]
+              - paragraph [ref=e139]: Ngga salah saya pilih Payoy! secara fitur banyak sekali yang diberikan, tampilan user friendly banget untuk pegawai baru langsung bisa pakai tanpa ribet
+            - generic [ref=e140]:
+              - generic [ref=e141]: VI
+              - generic [ref=e142]:
+                - heading "Viora" [level=3] [ref=e143]
+                - paragraph [ref=e144]: Owner Ayam Bakar
+          - article [ref=e145]:
+            - generic [ref=e146]:
+              - img [ref=e147]
+              - paragraph [ref=e150]: Aplikasi Payoy! bagus mudah digunakan, simpel, dan menarik. Semoga kedepannya ada fitur dashboard yang menampilkan grafik laporan penjualan.
+            - generic [ref=e151]:
+              - generic [ref=e152]: IC
+              - generic [ref=e153]:
+                - heading "Icha" [level=3] [ref=e154]
+                - paragraph [ref=e155]: Owner Cafe
+      - generic [ref=e156]:
+        - heading "Siap untuk mengelola bisnis kuliner?" [level=2] [ref=e157]
+        - paragraph [ref=e158]: Payoy tersedia di semua platform, website, android, dan ios.
+        - generic [ref=e160]:
+          - link "Download Payoy di App Store" [ref=e161] [cursor=pointer]:
+            - /url: "#download"
+            - img "Download di App Store" [ref=e162]
+          - link "Download Payoy di Google Play" [ref=e163] [cursor=pointer]:
+            - /url: "#download"
+            - img "Dapatkan di Google Play" [ref=e164]
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - link "Payoy" [ref=e168] [cursor=pointer]:
+            - /url: /
+            - img [ref=e170]
+            - generic [ref=e175]: Payoy
+          - paragraph [ref=e176]: Payoy adalah platform modern yang membantu pengguna mengelola kebutuhan digital dengan lebih mudah, cepat, dan nyaman.
+        - generic [ref=e177]:
+          - heading "Menu" [level=3] [ref=e178]
+          - navigation [ref=e179]:
+            - link "Beranda" [ref=e180] [cursor=pointer]:
+              - /url: /
+            - link "Layanan" [ref=e181] [cursor=pointer]:
+              - /url: /service
+            - link "Tentang Kami" [ref=e182] [cursor=pointer]:
+              - /url: /about
+            - link "Kontak" [ref=e183] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e184]:
+          - heading "Sosial Media" [level=3] [ref=e185]
+          - navigation [ref=e186]:
+            - link "Instagram" [ref=e187] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e188]
+              - generic [ref=e190]: Instagram
+            - link "Facebook" [ref=e191] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e192]: Facebook
+            - link "TikTok" [ref=e193] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e194]: TikTok
+            - link "LinkedIn" [ref=e195] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e196]: LinkedIn
+      - paragraph [ref=e198]: © 2026 Payoy. Semua hak dilindungi.
+  - button "Open Next.js Dev Tools" [ref=e204] [cursor=pointer]:
+    - img [ref=e205]
