@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-
 import { fetchCategories, fetchFoodsByCategory, type MenuCategory, type MenuFood } from "./menu-data";
 
 type CartSummary = {

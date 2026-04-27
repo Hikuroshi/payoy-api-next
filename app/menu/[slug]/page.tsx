@@ -2,11 +2,9 @@ import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-
 import { Button } from "@/components/ui/button";
-
 import { fetchFoodDetail, formatPrice } from "../menu-data";
-import { DetailActions } from "./add-button";
+import { AddButton } from "./add-button";
 
 type MenuDetailPageProps = {
   params: Promise<{
@@ -53,7 +51,7 @@ export default async function MenuDetailPage({ params }: MenuDetailPageProps) {
           <p className="whitespace-pre-line text-sm leading-6 text-muted-foreground">{food.description}</p>
         </div>
 
-        <DetailActions foodName={food.name} price={food.price} />
+        <AddButton foodName={food.name} price={food.price} />
       </section>
     </main>
   );

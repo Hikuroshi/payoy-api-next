@@ -1,10 +1,8 @@
 "use client";
 
 import { toast } from "sonner";
-
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
-
 import { CategoryButton, CategorySkeletons, CheckoutBar, FoodSkeletons, MenuEmptyState, MenuItemCard } from "./menu";
 import { type MenuFood } from "./menu-data";
 import { useMenu } from "./use-menu";

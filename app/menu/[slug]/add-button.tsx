@@ -2,12 +2,10 @@
 
 import * as React from "react";
 import { toast } from "sonner";
-
 import { Button } from "@/components/ui/button";
-
 import { CheckoutBar } from "../menu";
 
-export function DetailActions({ foodName, price }: { foodName: string; price: number }) {
+export function AddButton({ foodName, price }: { foodName: string; price: number }) {
   const [count, setCount] = React.useState(0);
 
   function addFood() {
