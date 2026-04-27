@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <main className="min-h-screen bg-background">
-      <section className="relative h-[400px] flex items-center px-10 md:px-20 overflow-hidden">
+      <section className="relative h-100 flex items-center px-10 md:px-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image src="/img/cover.png" alt=" " fill className="object-cover" />
           <div className="absolute inset-0 bg-black/40"></div>

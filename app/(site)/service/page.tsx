@@ -1,4 +1,4 @@
-import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Service() {
   return (
@@ -8,10 +8,10 @@ export default function Service() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {/* CARD 1 */}
-        <Card className="min-h-[320px] flex flex-col text-center transition hover:bg-orange-50">
+        <Card className="min-h-80 flex flex-col text-center transition hover:bg-orange-50">
           <CardHeader className="items-center">
             <div className="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLinejoin="round" className="w-12 h-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12">
                 <rect width="5" height="5" x="3" y="3" rx="1" />
                 <rect width="5" height="5" x="16" y="3" rx="1" />
                 <rect width="5" height="5" x="3" y="16" rx="1" />
@@ -45,10 +45,10 @@ export default function Service() {
 
         {/* CARD 2 */}
 
-        <Card className="min-h-[320px] flex flex-col text-center transition hover:bg-orange-50">
+        <Card className="min-h-80 flex flex-col text-center transition hover:bg-orange-50">
           <CardHeader className="items-center">
             <div className="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLinejoin="round" className="w-12 h-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12">
                 <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" />
                 <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
               </svg>
@@ -72,10 +72,10 @@ export default function Service() {
 
         {/* CARD 3 */}
 
-        <Card className="min-h-[320px] flex flex-col text-center transition hover:bg-orange-50">
+        <Card className="min-h-80 flex flex-col text-center transition hover:bg-orange-50">
           <CardHeader className="items-center">
             <div className="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLinejoin="round" className="w-12 h-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12">
                 <path d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11" />
                 <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z" />
                 <path d="M6 13h12" />
@@ -101,10 +101,10 @@ export default function Service() {
 
         {/* CARD 4 */}
 
-        <Card className="min-h-[320px] flex flex-col text-center transition hover:bg-orange-50">
+        <Card className="min-h-80 flex flex-col text-center transition hover:bg-orange-50">
           <CardHeader className="items-center">
             <div className="flex justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" strokeLinejoin="round" className="w-12 h-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-12 h-12">
                 <circle cx="12" cy="18" r="3" />
                 <circle cx="6" cy="6" r="3" />
                 <circle cx="18" cy="6" r="3" />

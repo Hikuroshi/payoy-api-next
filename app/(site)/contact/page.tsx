@@ -21,7 +21,7 @@ export default function Contact() {
 
           <div className="space-y-8 pt-4">
             <div className="flex gap-5 group items-start">
-              <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl border border-slate-200">
+              <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl border border-slate-200">
                 <MessageCircle className="text-orange-700 w-6 h-6" />
               </div>
               <div>
@@ -31,7 +31,7 @@ export default function Contact() {
             </div>
 
             <div className="flex gap-5 items-start">
-              <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl border border-slate-200">
+              <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl border border-slate-200">
                 <Phone className="text-orange-700 w-6 h-6" />
               </div>
               <div>
@@ -41,7 +41,7 @@ export default function Contact() {
             </div>
 
             <div className="flex gap-5 items-start">
-              <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl border border-slate-200">
+              <div className="shrink-0 w-12 h-12 flex items-center justify-center rounded-2xl border border-slate-200">
                 <MapPin className="text-orange-700 w-6 h-6" />
               </div>
               <div>
